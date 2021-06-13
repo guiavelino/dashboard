@@ -1,12 +1,9 @@
 mat-toolbar {
   position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
   bottom: 0;
-  
-  span {
-    display: flex;
-    align-items: center;
-    margin-left: auto;
-    font-size: 1rem;
-    font-weight: 500;
-  }
+  font-size: 0.875rem;
+  font-weight: 500;
 }
